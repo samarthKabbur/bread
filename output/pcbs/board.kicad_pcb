@@ -15,22 +15,22 @@
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
-		(9 "F.Adhes" user)
-		(11 "B.Adhes" user)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
 		(13 "F.Paste" user)
 		(15 "B.Paste" user)
-		(5 "F.SilkS" user)
-		(7 "B.SilkS" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
 		(1 "F.Mask" user)
 		(3 "B.Mask" user)
-		(17 "Dwgs.User" user)
-		(19 "Cmts.User" user)
-		(21 "Eco1.User" user)
-		(23 "Eco2.User" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
 		(25 "Edge.Cuts" user)
 		(27 "Margin" user)
-		(31 "F.CrtYd" user)
-		(29 "B.CrtYd" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
 		(35 "F.Fab" user)
 		(33 "B.Fab" user)
 	)
@@ -73,9 +73,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerber/")
 		)
 	)
 	(net 0 "")
@@ -1024,7 +1024,7 @@
 			(uuid "9023a4c1-7546-4a6e-acda-1ab6dc9b1434")
 		)
 		(pad "1" smd rect
-			(at -7.084999 -2.54 12)
+			(at -7.084998 -2.54 12)
 			(size 2.55 2.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 4 "pinky_top")
@@ -1528,7 +1528,7 @@
 			(uuid "0463a531-7c8e-4c1d-af60-8497c7f808cc")
 		)
 		(pad "1" smd rect
-			(at -7.084999 -2.54 12)
+			(at -7.084998 -2.54 12)
 			(size 2.55 2.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 1 "pinky_bottom")
@@ -5264,7 +5264,7 @@
 			(uuid "f4c80806-3862-4806-987f-d75cba6a0165")
 		)
 		(pad "1" thru_hole rect
-			(at -3.81 0.000001 12)
+			(at -3.81 0.000002 12)
 			(size 1.778 1.778)
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
@@ -5301,7 +5301,7 @@
 			(uuid "1cedd4b2-1f7c-4dca-abcb-6ab29952b121")
 		)
 		(pad "2" thru_hole circle
-			(at 3.81 -0.000001 12)
+			(at 3.81 -0.000002 12)
 			(size 1.905 1.905)
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
@@ -5998,7 +5998,7 @@
 			(uuid "fe5db969-705c-4ee4-afa1-886ef785ce19")
 		)
 		(pad "1" thru_hole rect
-			(at -3.810001 0 350)
+			(at -3.810003 0 350)
 			(size 1.778 1.778)
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
@@ -6035,7 +6035,7 @@
 			(uuid "6219eff7-3d7f-44f9-b71b-a9d4fa552c7d")
 		)
 		(pad "2" thru_hole circle
-			(at 3.810001 0 350)
+			(at 3.810003 0 350)
 			(size 1.905 1.905)
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
@@ -8838,7 +8838,7 @@
 			(uuid "751bdf4e-a888-4e12-8105-ebc4b1f965e9")
 		)
 		(pad "1" thru_hole rect
-			(at -3.81 0.000001 12)
+			(at -3.81 0.000002 12)
 			(size 1.778 1.778)
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
@@ -8875,7 +8875,7 @@
 			(uuid "9d0e1be2-5f93-4301-a48f-e937775d128f")
 		)
 		(pad "2" thru_hole circle
-			(at 3.81 -0.000001 12)
+			(at 3.81 -0.000002 12)
 			(size 1.905 1.905)
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
@@ -10630,7 +10630,7 @@
 			(uuid "2e877c36-074a-4b7b-93da-b8d5bc009a5f")
 		)
 		(pad "1" smd rect
-			(at -7.084999 -2.54 12)
+			(at -7.084998 -2.54 12)
 			(size 2.55 2.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 3 "pinky_home")
@@ -11186,7 +11186,7 @@
 			(uuid "4c7fbc1b-8359-4700-b209-1a773316c574")
 		)
 		(pad "1" thru_hole rect
-			(at -3.81 0.000001 12)
+			(at -3.81 0.000002 12)
 			(size 1.778 1.778)
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
@@ -11223,7 +11223,7 @@
 			(uuid "2c905d15-9e08-44eb-9cb0-d7176e7b3bde")
 		)
 		(pad "2" thru_hole circle
-			(at 3.81 -0.000001 12)
+			(at 3.81 -0.000002 12)
 			(size 1.905 1.905)
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
@@ -11612,6 +11612,26 @@
 		(uuid "4e2fac4b-1eaa-4cff-9c0b-4ae79ad235ef")
 	)
 	(gr_line
+		(start 275 148.690463)
+		(end 275 140)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "572be440-bef5-48bc-accc-f339a49eae9e")
+	)
+	(gr_line
+		(start 275 140)
+		(end 275.5 140)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "58357058-b863-4cda-8687-aea1f77dc4e8")
+	)
+	(gr_line
 		(start 149.264478 116.453104)
 		(end 152.809372 133.13052)
 		(stroke
@@ -11705,16 +11725,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "7d13f7ae-18df-4bce-a4a7-6462d6362034")
-	)
-	(gr_line
-		(start 275 148.690463)
-		(end 275 77)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "818ceae5-998b-4c73-afa6-68de22372f10")
 	)
 	(gr_arc
 		(start 244.688011 162.878016)
@@ -11883,6 +11893,16 @@
 		(layer "Edge.Cuts")
 		(uuid "e02a23c0-d75d-406a-acc1-b4a5da6f4c4d")
 	)
+	(gr_line
+		(start 275.5 77)
+		(end 275 77)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e2e854d0-0f2a-4400-8799-a9d407463b23")
+	)
 	(gr_arc
 		(start 149.356179 115.313893)
 		(mid 149.009412 114.852096)
@@ -11945,6 +11965,16 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f3f3e1e4-f554-41ad-8464-ef14f80e04b5")
+	)
+	(gr_line
+		(start 275.5 140)
+		(end 275.5 77)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f83af9d3-6b34-4214-ac71-0719b9ca68a7")
 	)
 	(gr_line
 		(start 275 77)

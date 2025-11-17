@@ -1,1 +1,5 @@
 /output non reversible keys save
+
+# Ignore generated Gerber outputs
+output/pcbs/gerber/
+*.zip
